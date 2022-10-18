@@ -1,26 +1,26 @@
+.logo {
+    padding: 2rem;
+}
+
 .container {
     display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
 }
 
-.dropdown-main > ul {
+.dropdown-menu > ul {
     display: flex;
 }
 
-.dropdown-main > ul > li {
-    padding: 2rem;
+.dropdown-menu > ul > li {
+    padding: 1rem;
 }
 
 .user {
     display: flex;
 }
 
-.dropdown {
-    position: relative;
-}
-
-.dropdown-menu {
-    position: absolute;
-    left: 0;
-    top: calc(100% + 0.25rem);
-    background-color: white;
+.user > * {
+    padding: 2rem 0.5rem;
+    margin-right: 1rem;
 }

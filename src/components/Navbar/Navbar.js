@@ -8,7 +8,8 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='container'>
-        <div className='dropdown-main'>
+        <div className='logo'>JanusWorks</div>
+        <div className='dropdown-menu'>
           <ul>
             <li><a href='#'>Collections</a></li>
             <li><a href='#'>Bracelets</a></li>
@@ -20,11 +21,8 @@ const Navbar = () => {
           </ul>
         </div>
         <div className='user'>
-          <div className='dropdown'>
+          <div>
             <button className='dollar-conversion'>USD</button>
-            <div className='dropdown-menu'>
-              Dropdown Content
-            </div>
           </div>
           <span className='user-profile'><AiOutlineUser /></span>
           <span className='search-btn'><AiOutlineSearch /></span>
