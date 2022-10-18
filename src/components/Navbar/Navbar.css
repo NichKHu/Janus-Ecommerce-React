@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+}
+
+.dropdown-main > ul {
+    display: flex;
+}
+
+.dropdown-main > ul > li {
+    padding: 2rem;
+}
+
+.user {
+    display: flex;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 0.25rem);
+    background-color: white;
+}
