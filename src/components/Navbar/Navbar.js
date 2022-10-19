@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='container'>
-        <div className='logo'>JanusWorks</div>
+        <div className='logo'>JanusLondon</div>
         <div className='dropdown-menu'>
           <ul>
             <li><a href='#'>Collections</a></li>
