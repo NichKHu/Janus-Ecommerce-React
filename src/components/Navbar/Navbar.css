@@ -3,6 +3,16 @@
     src:url(futura.ttf);
 }
 
+.banner {
+    font-family: 'FuturaLT', 'sans-serif';
+    color: #FAF4F4;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
 .logo {
     padding: 2rem;
 }
@@ -11,10 +21,12 @@
     display: flex;
     border-bottom: 0.5px solid black;
     justify-content: space-between;
+    align-items: center;
 
     font-family: 'FuturaLT', 'sans-serif';
-    color: #413F3F;
+    color: black;
     font-size: 15px;
+    background-color: rgb(255,255,255);
 }
 
 .dropdown-menu > ul {
@@ -30,8 +42,13 @@
 }
 
 .user > * {
-    padding: 2rem 0.5rem;
+    padding: 2rem 0.2rem;
     margin-right: 1rem;
-    font-size: 1.23rem;
+    font-size: 1.5rem;
 }
 
+button {
+    font-family: 'FuturaLT', 'sans-serif';
+    border: none;
+    background: transparent;
+}

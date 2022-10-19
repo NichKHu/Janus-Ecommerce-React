@@ -7,6 +7,9 @@ import {SlBag} from 'react-icons/sl';
 const Navbar = () => {
   return (
     <div className='navbar'>
+      <div className='banner'>
+        Free Worldwide Express Shipping
+      </div>
       <div className='container'>
         <div className='logo'>JanusLondon</div>
         <div className='dropdown-menu'>
