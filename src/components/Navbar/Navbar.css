@@ -13,6 +13,14 @@
     padding: 1rem;
 }
 
+.navbar {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
 .logo {
     margin-left: 2rem;
     margin-right: -10rem;
@@ -24,7 +32,6 @@
 
 .container {
     display: flex;
-    border-bottom: 0.5px solid black;
     justify-content: space-between;
     align-items: center;
 

@@ -6,8 +6,9 @@ import heroWatch from '../../assets/images/hero-pic.jpg'
 const Hero = () => {
   return (
     <div className='hero'>
-      <div className='hero-image'>
-      
+      <div className='container'>
+        <h1>London's Prime Quality Watches</h1>
+        <h3>Your self expression hand-crafted for perfection</h3>
       </div>
     </div>
   )
