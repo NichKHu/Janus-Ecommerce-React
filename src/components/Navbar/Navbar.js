@@ -4,6 +4,8 @@ import {AiOutlineUser} from 'react-icons/ai';
 import {AiOutlineSearch} from 'react-icons/ai';
 import {SlBag} from 'react-icons/sl';
 
+import logo from '../../assets/images/logo_transparent.png'
+
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -11,7 +13,7 @@ const Navbar = () => {
         Free Worldwide Express Shipping
       </div>
       <div className='container'>
-        <div className='logo'>JanusLondon</div>
+        <img className='logo' src={logo} alt='' />
         <div className='dropdown-menu'>
           <ul>
             <li><a href='#'>Collections</a></li>

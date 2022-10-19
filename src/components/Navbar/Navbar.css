@@ -14,8 +14,12 @@
 }
 
 .logo {
-    margin-left: 6rem;
-    margin-right: -15rem;
+    margin-left: 2rem;
+    margin-right: -10rem;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+    height: auto;
+    width: 10rem;
 }
 
 .container {
@@ -28,7 +32,6 @@
     color: black;
     font-size: 15px;
     background-color: rgb(255,255,255);
-
 }
 
 .dropdown-menu > ul {
