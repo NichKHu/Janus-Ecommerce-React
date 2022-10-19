@@ -34,18 +34,18 @@
     font-family: 'Raleway', 'sans-serif';
 }
 
-h1 {
+.main-header {
     position: absolute;
     left: 8rem;
-    top: 12rem;
+    top: 14rem;
 
     font-weight: 200;
 }
 
-h3 {
+.sub-header {
     position: absolute;
     left: 10rem;
-    top: 16rem;
+    top: 17.5rem;
 
     font-weight: 200;
 }

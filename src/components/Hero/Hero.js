@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <div className='hero'>
       <div className='container'>
-        <h1>London's Prime Quality Watches</h1>
-        <h3>Your self expression hand-crafted for perfection</h3>
+        <h1 className='main-header'>London's Prime Quality Watches</h1>
+        <h3 className='sub-header'>Your self expression hand-crafted for perfection</h3>
         <button type='submit' className='browse-btn'>Browse Collection</button>
       </div>
     </div>
