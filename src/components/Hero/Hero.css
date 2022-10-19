@@ -1,4 +1,20 @@
-.hero-pic img {
+.hero {
+    background-color: rgba(0,0,0,0.35);
+    color: white;
     height: 70vh;
-    width: auto;   
+    width: 100%;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.hero:before {
+    content: '';
+    background: url('../../assets/images/hero-pic-main-2.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
 }

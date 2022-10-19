@@ -17,12 +17,12 @@ const Navbar = () => {
         <div className='dropdown-menu'>
           <ul>
             <li><a href='#'>Collections</a></li>
+            <li><a href='#'>Watches</a></li>
             <li><a href='#'>Bracelets</a></li>
-            <li><a href='#'>Rings</a></li>
             <li><a href='#'>Necklaces</a></li>
-            <li><a href='#'>Women's</a></li>
             <li><a href='#'>Custom Made</a></li>
             <li><a href='#'>Gift Guide</a></li>
+            <li><a href='#'>Support</a></li>
           </ul>
         </div>
         <div className='user'>
