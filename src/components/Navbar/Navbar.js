@@ -27,9 +27,23 @@ const Navbar = () => {
           <div>
             <button className='dollar-conversion'>USD</button>
           </div>
-          <span className='user-profile'><AiOutlineUser /></span>
-          <span className='search-btn'><AiOutlineSearch /></span>
-          <span className='cart'><SlBag /></span>
+          <div className='dollar-conversion-dropdown'>
+            <ul>
+              <li>AED</li>
+              <li>AUD</li>
+              <li>CAD</li>
+              <li>EUR</li>
+              <li>GBP</li>
+              <li>HKD</li>
+              <li>KRW</li>
+              <li>NZD</li>
+              <li>SGD</li>
+              <li>USD</li>
+            </ul>
+          </div>
+          <span className='user-profile'><a href='#'><AiOutlineUser /></a></span>
+          <span className='search-btn'><a href='#'><AiOutlineSearch /></a></span>
+          <span className='cart'><a href='#'><SlBag /></a></span>
         </div>
       </div>
     </div>

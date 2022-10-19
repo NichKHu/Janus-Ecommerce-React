@@ -14,7 +14,8 @@
 }
 
 .logo {
-    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: -15rem;
 }
 
 .container {
@@ -27,14 +28,16 @@
     color: black;
     font-size: 15px;
     background-color: rgb(255,255,255);
+
 }
 
 .dropdown-menu > ul {
     display: flex;
 }
 
-.dropdown-menu > ul > li {
-    padding: 1rem;
+.dropdown-menu ul li a {
+    padding: 1.5rem;
+    color: black;
 }
 
 .user {
@@ -42,9 +45,13 @@
 }
 
 .user > * {
-    padding: 2rem 0.2rem;
+    padding: 1.5rem 0.2rem;
     margin-right: 1rem;
     font-size: 1.5rem;
+}
+
+.user span a {
+    color: black;
 }
 
 button {
@@ -52,3 +59,8 @@ button {
     border: none;
     background: transparent;
 }
+
+.dollar-conversion-dropdown ul li {
+    display: none;
+}
+
