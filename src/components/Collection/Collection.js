@@ -17,7 +17,7 @@ const Collection = () => {
                 <img src={discoverWatches} alt='' />
                 <button type='submit' className='shop-watches-btn'>Shop Watches</button>
             </div>
-            <div className='shop-bracelets'>
+            <div className='shop-rings'>
                 <img src={discoverRings} alt='' />
                 <button type='submit' className='shop-rings-btn'>Shop Rings</button>
             </div>
