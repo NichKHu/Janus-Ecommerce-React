@@ -40,20 +40,20 @@ const End = () => {
                     <p className='newsletter-info'>Subscribe to recieve updates, access to exclusive subscriber discount, and more.</p>
                     <form>
                         <input className='user-input' type='email' placeholder='Enter your email address'></input>
-                        <button className='btn-subscribe' type='button' name='button'>Subscribe</button>
+                        <button className='btn-subscribe' type='button' name='button'>SUBSCRIBE</button>
                     </form>
             </div>
             <div className='contact list'>
                 <h3 className='contact-us'>Contact Us</h3>
                     <p className='supp-email'>support@janusworks.com</p>
-                    <h4>Call Us</h4>
-                    <p>M-F | 8am-6pm PT</p>
+                    <h4 className='call-us'>Call Us</h4>
+                    <p className='schedule'>M-F | 8am-6pm PT</p>
                     <p className='phone-num'>+44 20 3663 0230</p>
                     <div className="social-media"><AiOutlineFacebook /><GrTwitter /><AiOutlineInstagram /><ImPinterest2 /><IoLogoTumblr /></div>
             </div>
         </div>
         <div className='copyright-ending'>
-                <p>© 2022 JanusWorks Ltd-All rights reserved GB VAT 219 6348 89 - 307 Linen Hall 162-168 Regent Street W1B 5TE</p>
+                <p>© 2022 JANUS Ltd-All rights reserved GB VAT 219 6348 89 - 307 Linen Hall 162-168 Regent Street W1B 5TE</p>
         </div>
     </div>
   )

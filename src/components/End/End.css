@@ -8,9 +8,19 @@
     font-family: 'Raleway', 'sans-serif';
 }
 
+.content div h3{
+    color: rgb(111,111,111);
+    font-size: 15px;
+    font-family: 'FuturaLt', 'sans-serif';
+    font-weight: bold;
+}
+
 .list li {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    margin-left: -2.3rem;
+
+    font-size: 13px;
 }
 
 .list li a {
@@ -42,13 +52,11 @@ input {
     margin-top: 2rem;
     width: 140px;
 
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    letter-spacing: 2.4px;
 
-    font-family: 'Raleway';
-    font-size: 1rem;
+    font-family: 'FuturaLT';
+    font-size: 12px;
     background-color: black;
     border: 1px solid black;
     color: white;
@@ -65,7 +73,11 @@ input {
 .newsletter-info {
     width: 300px;
     margin-top: 0.2rem;
+    line-height: 23.1px;
 
+    color: rgb(111,111,111);
+    font-size: 14px;
+    font-family: 'Raleway', 'sans-serif';
 }
 
 .contact > * {
@@ -75,12 +87,17 @@ input {
 .supp-email,
 .phone-num {
     text-decoration: underline;
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 14px;
+    color: rgb(111,111,111);
 }
 
 .copyright-ending {
     margin: 3rem;
+    color: rgb(111,111,111);
 
     font-size: 0.7rem;
+    font-family: 'FuturaLt', 'sans-serif';
 }
 
 .social-media {
@@ -100,4 +117,9 @@ input {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
     }
+}
+
+.call-us, 
+.schedule {
+    font-size: 15px;
 }

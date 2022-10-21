@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
-    margin: 5rem;
+    margin: 3rem 5rem;
 }
 
 .grid div img {
@@ -22,15 +22,19 @@
     font-family: 'FuturaLT', 'sans-serif';
     font-weight: lighter;
     font-size: 20px;
+    line-height: 33px;
     color: #676565;
 }
 
 .collection-content h3 {
     text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
 
     font-family: 'FuturaLT', 'sans-serif';
     font-weight: lighter;
     font-size: 14px;
+    line-height: 23.1px;
     color: #676565;
 }
 
@@ -63,11 +67,11 @@ figure button {
     letter-spacing: 2.4px;
     padding: 0.8rem 1rem;
 
-    color: black;
+    color: #676565;
     background-color: white;
     border: 1px solid white;
 
-    transition: 0.4s ease-in-out;
+    transition: 0.7s ease-in-out;
     box-shadow: inset 0 0 0 0 white;
     
 }
@@ -77,5 +81,5 @@ figure button:hover {
     box-shadow: inset 180px 0 0 0 transparent;
     cursor: pointer;
     background-color: transparent;
-    text-transform: underline;
+    text-decoration: underline;
 }

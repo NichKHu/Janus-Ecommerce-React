@@ -18,7 +18,10 @@
     top: 0;
     left: 0;
     background-color: white;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(234,234,234);
+
+    position: sticky;
+    z-index: 10;
 }
 
 .logo {
@@ -28,9 +31,11 @@
     margin-bottom: -2rem;
     height: auto;
     width: 10rem;
+
+    cursor: pointer;
 }
 
-.navbar > .container {
+.navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,4 +78,3 @@ button {
 /* .dollar-conversion-dropdown ul li {
     display: none;
 } */
-

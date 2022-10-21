@@ -10,7 +10,7 @@ const Collection = () => {
     <div className='collection'>
         <div className='collection-content'>
             <h1>Artisan Hand-Crafted Watches</h1>
-            <h3>Impressive and stylish watches are passionately created with every detail elaborately designed and executed by our special craftsmanship.</h3>
+            <h3>Impressive and stylish watches are passionately created with every detail elaborately designed and executed by our special craftsmanship. Designed and brought to you from London, England.</h3>
         </div>
         <div className='grid'>
             <div className='shop-watches zoom-in'>
