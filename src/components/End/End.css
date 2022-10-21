@@ -1,0 +1,103 @@
+.end .content {
+    display: flex;
+    justify-content: space-around;
+
+    border-top: 1px solid rgb(231,231,231);
+    padding: 3rem 3rem;
+    color: rgb(111,111,111);
+    font-family: 'Raleway', 'sans-serif';
+}
+
+.list li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.list li a {
+    color: rgb(111,111,111);
+    font-family: 'Raleway', 'sans-serif';
+}
+
+.header {
+    padding-bottom: 0.5rem;
+}
+
+form {
+    padding-top: 1rem;
+}
+
+input {
+    border: 2px solid rgb(231,231,231);
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 0.7rem;
+    padding-right: 4rem;
+    outline: none;
+
+    font-family: 'Raleway', 'sans-serif';
+}
+
+.btn-subscribe {
+    display: block;
+    margin-top: 2rem;
+    width: 140px;
+
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    font-family: 'Raleway';
+    font-size: 1rem;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    transition: 0.4s ease-in-out;
+    box-shadow: inset 0 0 0 0 white;
+}
+
+.btn-subscribe:hover {
+    box-shadow: inset 140px 0 0 0 white;
+    color: black;
+    cursor: pointer;
+}
+
+.newsletter-info {
+    width: 300px;
+    margin-top: 0.2rem;
+
+}
+
+.contact > * {
+    padding: 0.3rem;
+}
+
+.supp-email,
+.phone-num {
+    text-decoration: underline;
+}
+
+.copyright-ending {
+    margin: 3rem;
+
+    font-size: 0.7rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    font-size: 1.5rem;
+    color: rgb(111,111,111);
+}
+
+@media screen and (max-width: 1024px) {
+    .end .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+}
