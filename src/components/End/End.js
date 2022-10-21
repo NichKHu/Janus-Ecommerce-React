@@ -15,6 +15,8 @@ const End = () => {
                 <h3 className='header'>Our Brand</h3>
                     <ul className='our-brand-list'>
                         <li><a href="#">About Us</a></li>
+                        <li><a href="#">Retailers</a></li>
+                        <li><a href="#">Blogs</a></li>
                         <li><a href="#">Terms and Conditions</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Sustainability</a></li>
@@ -26,11 +28,11 @@ const End = () => {
                     <ul className='assistance-list'>
                         <li><a href="#">Customer Service</a></li>
                         <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Partner Help</a></li>
-                        <li><a href="#">Investor Relations</a></li>
-                        <li><a href="#">Partner Dispute</a></li>
-                        <li><a href="#">Personal Information Query</a></li>
-                        <li><a href="#">Corporate Contact</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Refunds & Exchanges</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Jewellery Care</a></li>
+                        <li><a href="#">Hallmarking</a></li>
                     </ul>
             </div>
             <div className='newsletter list'>

@@ -36,14 +36,26 @@
 
 .zoom-in img {
     transform: scale(1);
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .zoom-in:hover img {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 figure {
     overflow: hidden;
     margin: auto;
+
+    position: relative;
+}
+
+figure button {
+    position: absolute;
+    bottom: 2rem;
+    left: 7rem;
+
+    color: white;
+    
 }
