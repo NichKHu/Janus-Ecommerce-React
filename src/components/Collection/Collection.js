@@ -16,19 +16,19 @@ const Collection = () => {
             <div className='shop-watches zoom-in'>
                 <figure>
                     <img src={discoverWatches} alt='' />
-                    <button type='submit' className='shop-watches-btn'>Shop Watches</button>
+                    <button type='submit' className='shop-watches-btn'>SHOP WATCHES</button>
                 </figure>
             </div>
             <div className='shop-rings zoom-in'>
                 <figure>
                     <img src={discoverRings} alt='' />
-                    <button type='submit' className='shop-rings-btn'>Shop Rings</button>
+                    <button type='submit' className='shop-rings-btn'>SHOP RINGS</button>
                 </figure>
             </div>
             <div className='shop-necklaces zoom-in'>
                 <figure>
                     <img src={discoverNecklaces} alt='' />
-                    <button type='submit' className='shop-necklaces-btn'>Shop Necklaces</button>
+                    <button type='submit' className='shop-necklaces-btn'>SHOP NECKLACES</button>
                 </figure>
             </div>
         </div>
