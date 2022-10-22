@@ -75,6 +75,55 @@ button {
     background: transparent;
 }
 
-/* .dollar-conversion-dropdown ul li {
-    display: none;
+/* Dropdown */
+
+/* .dollar-conversion {
+    font-family: 'FuturaLT', 'sans-serif'l;
+    font-size: 13px;
+    color: black;
+    font-weight: 100;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    text-align: center;
+}
+
+.dropdown li {
+    display: block;
 } */
+
+/* .dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    
+    font-size: 15px;
+    font-family: 'Raleway', 'sans-serif';
+}
+
+.dropdown li {
+    display: block;
+}
+
+.dropdown:hover {
+    display: block;
+    border: 0.5px solid black;
+    margin-right: -10rem;
+}
+ */
+
+.sub-menu {
+    background: red;
+ }
+
+.dollar-dropdown ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+}

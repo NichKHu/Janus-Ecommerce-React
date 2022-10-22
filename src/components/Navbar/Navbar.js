@@ -4,6 +4,10 @@ import {AiOutlineUser} from 'react-icons/ai';
 import {AiOutlineSearch} from 'react-icons/ai';
 import {SlBag} from 'react-icons/sl';
 
+// import ReactDOM from 'react-dom'
+// import {FontAwesomeIcon} from '@fontawesome/react-fontawesome'
+// import {FaAngleDown} from '@fontawesome/free-solid-svg-icons'
+
 import logo from '../../assets/images/logo_transparent.png'
 
 const Navbar = () => {
@@ -26,23 +30,19 @@ const Navbar = () => {
           </ul>
         </div>
         <div className='user'>
-          <div>
-            <button className='dollar-conversion'>USD</button>
-          </div>
-          {/* <div className='dollar-conversion-dropdown'>
-            <ul>
-              <li>AED</li>
-              <li>AUD</li>
-              <li>CAD</li>
-              <li>EUR</li>
-              <li>GBP</li>
-              <li>HKD</li>
-              <li>KRW</li>
-              <li>NZD</li>
-              <li>SGD</li>
-              <li>USD</li>
-            </ul>
-          </div> */}
+            <a href className='dollar-dropdown'>USD</a>
+              <ul class='sub-menu'>
+                <li><a href='#'>AED</a></li>
+                <li><a href='#'>AUD</a></li>
+                <li><a href='#'>CAD</a></li>
+                <li><a href='#'>EUR</a></li>
+                <li><a href='#'>GBP</a></li>
+                <li><a href='#'>HKD</a></li>
+                <li><a href='#'>KRW</a></li>
+                <li><a href='#'>NZD</a></li>
+                <li><a href='#'>SGD</a></li>
+                <li><a href='#'>USD</a></li>
+              </ul>
           <span className='user-profile'><a href='#'><AiOutlineUser /></a></span>
           <span className='search-btn'><a href='#'><AiOutlineSearch /></a></span>
           <span className='cart'><a href='#'><SlBag /></a></span>
