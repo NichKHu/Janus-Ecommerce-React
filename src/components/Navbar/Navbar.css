@@ -75,6 +75,14 @@ button {
     background: transparent;
 }
 
+.dollar-dropdown {
+    font-family: 'FuturaLT', 'sans-serif'l;
+    font-size: 13px;
+    color: black;
+    font-weight: 100;
+    display: flex;
+}
+
 /* Dropdown */
 
 /* .dollar-conversion {
@@ -118,7 +126,7 @@ ul li a {
 }
  */
 
-.sub-menu {
+/* .sub-menu {
     background: red;
  }
 
@@ -126,4 +134,4 @@ ul li a {
     display: block;
     position: absolute;
     background: rgb(0,100,0);
-}
+} */

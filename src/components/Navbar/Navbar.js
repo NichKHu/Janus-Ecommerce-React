@@ -31,7 +31,7 @@ const Navbar = () => {
         </div>
         <div className='user'>
             <a href className='dollar-dropdown'>USD</a>
-              <ul class='sub-menu'>
+              {/* <ul class='sub-menu'>
                 <li><a href='#'>AED</a></li>
                 <li><a href='#'>AUD</a></li>
                 <li><a href='#'>CAD</a></li>
@@ -42,7 +42,7 @@ const Navbar = () => {
                 <li><a href='#'>NZD</a></li>
                 <li><a href='#'>SGD</a></li>
                 <li><a href='#'>USD</a></li>
-              </ul>
+              </ul> */}
           <span className='user-profile'><a href='#'><AiOutlineUser /></a></span>
           <span className='search-btn'><a href='#'><AiOutlineSearch /></a></span>
           <span className='cart'><a href='#'><SlBag /></a></span>
