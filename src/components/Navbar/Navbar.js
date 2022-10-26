@@ -10,6 +10,9 @@ import {SlBag} from 'react-icons/sl';
 
 import logo from '../../assets/images/logo_transparent.png'
 
+const dropdowns = document.querySelectorAll('.dropdown');
+
+
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -36,15 +39,15 @@ const Navbar = () => {
               <div className='caret'></div>
             </div>
             <ul className='menu'>
-                <li><a href='#'>AED</a></li>
-                <li><a href='#'>AUD</a></li>
-                <li><a href='#'>CAD</a></li>
-                <li><a href='#'>EUR</a></li>
-                <li><a href='#'>GBP</a></li>
-                <li><a href='#'>HKD</a></li>
-                <li><a href='#'>KRW</a></li>
-                <li><a href='#'>NZD</a></li>
-                <li><a href='#'>SGD</a></li>
+                <li>AED</li>
+                <li>AUD</li>
+                <li>CAD</li>
+                <li>EUR</li>
+                <li>GBP</li>
+                <li>HKD</li>
+                <li>KRW</li>
+                <li>NZD</li>
+                <li>SGD</li>
                 <li class='active'><a href='#'>USD</a></li>
             </ul>
           </div>
