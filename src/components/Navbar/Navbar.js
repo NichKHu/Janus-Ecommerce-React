@@ -41,11 +41,11 @@ const Navbar = () => {
                   </ul>
                   <div>
                     <img className='trending' src={trending} alt='' />
-                    <span>Trending Now</span>
+                    <p>Trending Now</p>
                   </div>
                   <div>
                     <img className='new-arrivals' src={newArrivals} alt='' />
-                    <span>New Arrivals</span>
+                    <p>New Arrivals</p>
                   </div>
                 </div>
               </div>

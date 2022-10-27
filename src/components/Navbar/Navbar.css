@@ -165,29 +165,39 @@ button {
 
 .trending,
 .new-arrivals {
-    height: 200px;
+    height: 180px;
     width: auto;
+
+    border: 1px solid black;
+    margin: 3rem 2rem;
 }
 
 .collections {
     position: relative;
     z-index: 100;
+
+    transition: 0.4s ease-in-out;
 }
 
 .dropdown-collections {
     display: none;
-    border: 2px solid black;
+    border: 1px solid rgb(111,111,111);
     background: white;
+    opacity: 99%;
 
     position: absolute;
-    top: 100%;
-    left: 0;
+    top: 3.6rem;
 
     width: 100vh;
+    height: 40vh;
 }
 
 .dropdown-collections ul {
     padding: 2rem;
+}
+
+.dropdown-collections ul li {
+    padding-top: 1.2rem;
 }
 
 .collections:hover .dropdown-collections {
@@ -195,6 +205,11 @@ button {
     cursor: pointer;
 }
 
+.dropdown-collections div p {
+    position: relative;
+    right: -8rem;
+    bottom: 2rem;
+}
 
 /* Dropdown Dollar Conversion Menu */
 
