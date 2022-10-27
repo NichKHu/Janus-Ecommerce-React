@@ -1,17 +1,12 @@
 import React from 'react';
 import './Navbar.css';
+
 import {AiOutlineUser} from 'react-icons/ai';
 import {AiOutlineSearch} from 'react-icons/ai';
 import {SlBag} from 'react-icons/sl';
-
-// import ReactDOM from 'react-dom'
-// import {FontAwesomeIcon} from '@fontawesome/react-fontawesome'
-// import {FaAngleDown} from '@fontawesome/free-solid-svg-icons'
+import {RiArrowDropDownLine} from 'react-icons/ri';
 
 import logo from '../../assets/images/logo_transparent.png'
-
-const dropdowns = document.querySelectorAll('.dropdown');
-
 
 const Navbar = () => {
   return (
@@ -34,22 +29,15 @@ const Navbar = () => {
         </div>
         <div className='user'>
           <div className='dropdown'>
-            <div className='select'>
-              <span className='selected'>USD</span>
-              <div className='caret'></div>
-            </div>
-            <ul className='menu'>
-                <li>AED</li>
-                <li>AUD</li>
-                <li>CAD</li>
-                <li>EUR</li>
-                <li>GBP</li>
-                <li>HKD</li>
-                <li>KRW</li>
-                <li>NZD</li>
-                <li>SGD</li>
-                <li class='active'><a href='#'>USD</a></li>
-            </ul>
+              <button class='dropdown_hover'>USD <RiArrowDropDownLine /></button>
+              <div className='dropdown_menu'>
+                <a href='index.html'>AUD</a>
+                <a href='#'>CAD</a>
+                <a href='#'>EUR</a>
+                <a href='#'>GBP</a>
+                <a href='#'>NZD</a>
+                <a href='#'>SGD</a>
+              </div>
           </div>
           <span className='user-profile'><a href='#'><AiOutlineUser /></a></span>
           <span className='search-btn'><a href='#'><AiOutlineSearch /></a></span>
@@ -61,3 +49,22 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+{/* <div className='dropdown'>
+<div className='select'>
+  <span className='selected'>USD</span>
+  <div className='caret'></div>
+</div>
+<ul className='menu'>
+    <li>AED</li>
+    <li>AUD</li>
+    <li>CAD</li>
+    <li>EUR</li>
+    <li>GBP</li>
+    <li>HKD</li>
+    <li>KRW</li>
+    <li>NZD</li>
+    <li>SGD</li>
+    <li class='active'><a href='#'>USD</a></li>
+</ul> */}

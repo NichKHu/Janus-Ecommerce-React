@@ -77,7 +77,7 @@ button {
 
 /* Dropdown */
 
-.dropdown {
+/* .dropdown {
     min-width: 15em;
     position: relative;
     margin: 2em;
@@ -159,4 +159,57 @@ button {
 .menu-open {
     display: block;
     opacity: 0;
+} */
+
+/* Dropdown again */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+
+    font-size: 13px;
 }
+
+.dropdown_hover {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+/* 
+.dropdown_hover:hover {
+    background: #222;
+} */
+
+.dropdown_menu {
+    position: absolute;
+    display: none; 
+    top: 3.8rem;
+    /* left: 0; */
+    min-width: 50px;
+    background: white;
+    color: #323b40;
+    box-shadow: 0 3px 2px rgba(0.0.0,0.3);
+
+    font-size: 13px;
+}
+
+.dropdown:hover .dropdown_menu {
+    display: block;
+}
+
+.dropdown_menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-top: solid 1px #e0e0e0;
+    border: none;
+}
+
+.dropdown_menu a:hover {
+    background: #f0f0f0;
+    color: #323b40;
+}
+
