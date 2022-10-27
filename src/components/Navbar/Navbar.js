@@ -16,9 +16,27 @@ const Navbar = () => {
       </div>
       <div className='container'>
         <img className='logo' src={logo} alt='' />
-        <div className='dropdown-menu'>
+        <div className='main-menu'>
           <ul>
             <li><a href='#'>Collections</a></li>
+              <div className='dropdown-collections'>
+                <ul className='exclusive-collections'>
+                  <li>Exclusive Collections</li>
+                  <li>Exclusive Collections</li>
+                  <li>Exclusive Collections</li>
+                  <li>Exclusive Collections</li>
+                  <li>Exclusive Collections</li>
+                  <li>Exclusive Collections</li>
+                </ul>
+                <ul className='dropdown-collections'>
+                  <li>Exclusive Collections</li>
+                  <li>Exclusive Collections</li>
+                  <li>Exclusive Collections</li>
+                  <li>Exclusive Collections</li>
+                  <li>Exclusive Collections</li>
+                  <li>Exclusive Collections</li>
+                </ul>
+              </div>
             <li><a href='#'>Watches</a></li>
             <li><a href='#'>Bracelets</a></li>
             <li><a href='#'>Necklaces</a></li>
@@ -28,15 +46,15 @@ const Navbar = () => {
           </ul>
         </div>
         <div className='user'>
-          <div className='dropdown'>
-              <button class='dropdown_hover'>USD <RiArrowDropDownLine /></button>
-              <div className='dropdown_menu'>
+          <div className='dropdown-dc'>
+              <button class='dropdown-hover-dc'>USD <RiArrowDropDownLine className='caret' /></button>
+              <div className='dropdown-menu-dc'>
                 <a href='index.html'>AUD</a>
-                <a href='#'>CAD</a>
-                <a href='#'>EUR</a>
-                <a href='#'>GBP</a>
-                <a href='#'>NZD</a>
-                <a href='#'>SGD</a>
+                <a href='index.html'>CAD</a>
+                <a href='index.html'>EUR</a>
+                <a href='index.html'>GBP</a>
+                <a href='index.html'>NZD</a>
+                <a href='index.html'>SGD</a>
               </div>
           </div>
           <span className='user-profile'><a href='#'><AiOutlineUser /></a></span>

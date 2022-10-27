@@ -46,11 +46,11 @@
     background-color: rgb(255,255,255);
 }
 
-.dropdown-menu > ul {
+.main-menu > ul {
     display: flex;
 }
 
-.dropdown-menu ul li a {
+.main-menu ul li a {
     padding: 1.5rem;
     color: black;
 }
@@ -161,9 +161,16 @@ button {
     opacity: 0;
 } */
 
-/* Dropdown again */
+/* Dropdown Main Menu */
 
-.dropdown {
+
+
+
+
+
+/* Dropdown Dollar Conversion Menu */
+
+.dropdown-dc {
     position: relative;
     display: inline-block;
     z-index: 10;
@@ -171,7 +178,7 @@ button {
     font-size: 13px;
 }
 
-.dropdown_hover {
+.dropdown-hover-dc {
     display: inline-block;
     padding: 10px;
     color: black;
@@ -179,11 +186,11 @@ button {
     border: none;
 }
 /* 
-.dropdown_hover:hover {
+.dropdown-hover:hover {
     background: #222;
 } */
 
-.dropdown_menu {
+.dropdown-menu-dc {
     position: absolute;
     display: none; 
     top: 3.8rem;
@@ -196,11 +203,12 @@ button {
     font-size: 13px;
 }
 
-.dropdown:hover .dropdown_menu {
+.dropdown-dc:hover .dropdown-menu-dc {
     display: block;
+    border: 1px solid black;
 }
 
-.dropdown_menu a {
+.dropdown-menu-dc a {
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -208,8 +216,7 @@ button {
     border: none;
 }
 
-.dropdown_menu a:hover {
+.dropdown-menu-dc a:hover {
     background: #f0f0f0;
     color: #323b40;
 }
-
