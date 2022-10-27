@@ -163,9 +163,37 @@ button {
 
 /* Dropdown Main Menu */
 
+.trending,
+.new-arrivals {
+    height: 200px;
+    width: auto;
+}
 
+.collections {
+    position: relative;
+    z-index: 100;
+}
 
+.dropdown-collections {
+    display: none;
+    border: 2px solid black;
+    background: white;
 
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    width: 100vh;
+}
+
+.dropdown-collections ul {
+    padding: 2rem;
+}
+
+.collections:hover .dropdown-collections {
+    display: flex;
+    cursor: pointer;
+}
 
 
 /* Dropdown Dollar Conversion Menu */
@@ -178,7 +206,7 @@ button {
     font-size: 13px;
 }
 
-.dropdown-hover-dc {
+.dropdown-button-dc {
     display: inline-block;
     padding: 10px;
     color: black;
@@ -186,7 +214,7 @@ button {
     border: none;
 }
 /* 
-.dropdown-hover:hover {
+.dropdown-button:hover {
     background: #222;
 } */
 

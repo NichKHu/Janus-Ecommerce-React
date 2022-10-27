@@ -7,6 +7,8 @@ import {SlBag} from 'react-icons/sl';
 import {RiArrowDropDownLine} from 'react-icons/ri';
 
 import logo from '../../assets/images/logo_transparent.png'
+import trending from '../../assets/images/trending.jpg'
+import newArrivals from '../../assets/images/new-arrivals.jpg'
 
 const Navbar = () => {
   return (
@@ -18,24 +20,34 @@ const Navbar = () => {
         <img className='logo' src={logo} alt='' />
         <div className='main-menu'>
           <ul>
-            <li><a href='#'>Collections</a></li>
-              <div className='dropdown-collections'>
-                <ul className='exclusive-collections'>
-                  <li>Exclusive Collections</li>
-                  <li>Exclusive Collections</li>
-                  <li>Exclusive Collections</li>
-                  <li>Exclusive Collections</li>
-                  <li>Exclusive Collections</li>
-                  <li>Exclusive Collections</li>
-                </ul>
-                <ul className='dropdown-collections'>
-                  <li>Exclusive Collections</li>
-                  <li>Exclusive Collections</li>
-                  <li>Exclusive Collections</li>
-                  <li>Exclusive Collections</li>
-                  <li>Exclusive Collections</li>
-                  <li>Exclusive Collections</li>
-                </ul>
+            <div className='collections'>
+              <li><a href='#'>Collections</a></li>
+                <div className='dropdown-collections'>
+                  <ul className='exclusive-collections'>
+                    <li className='exclusive-collections-header'>Exclusive Collections</li>
+                    <li>Atlas Collection</li>
+                    <li>Chronos Collection</li>
+                    <li>Eros Collection</li>
+                    <li>Orion Collection</li>
+                    <li>Percival Collection</li>
+                  </ul>
+                  <ul className='trending-collections'>
+                    <li className='trending-collections-header'>Trending Collection</li>
+                    <li>Best Sellers</li>
+                    <li>New Arrivals</li>
+                    <li>Limited Edition</li>
+                    <li>On Sale</li>
+                    <li>Bundles</li>
+                  </ul>
+                  <div>
+                    <img className='trending' src={trending} alt='' />
+                    <span>Trending Now</span>
+                  </div>
+                  <div>
+                    <img className='new-arrivals' src={newArrivals} alt='' />
+                    <span>New Arrivals</span>
+                  </div>
+                </div>
               </div>
             <li><a href='#'>Watches</a></li>
             <li><a href='#'>Bracelets</a></li>
@@ -47,7 +59,7 @@ const Navbar = () => {
         </div>
         <div className='user'>
           <div className='dropdown-dc'>
-              <button class='dropdown-hover-dc'>USD <RiArrowDropDownLine className='caret' /></button>
+              <button class='dropdown-button-dc'>USD <RiArrowDropDownLine className='caret' /></button>
               <div className='dropdown-menu-dc'>
                 <a href='index.html'>AUD</a>
                 <a href='index.html'>CAD</a>
