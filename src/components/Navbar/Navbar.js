@@ -24,26 +24,24 @@ const Navbar = () => {
               <li><a href='#'>Collections</a></li>
                 <div className='dropdown-collections'>
                   <ul className='exclusive-collections'>
-                    <li className='exclusive-collections-header'>Exclusive Collections</li>
-                    <li>Atlas Collection</li>
-                    <li>Chronos Collection</li>
-                    <li>Eros Collection</li>
-                    <li>Orion Collection</li>
-                    <li>Percival Collection</li>
+                    <li className='exclusive-collections-header'><a href='index.html'>Exclusive Collections</a></li>
+                    <li><a href='index.html'>Atlas Collection</a></li>
+                    <li><a href='index.html'>Chronos Collection</a></li>
+                    <li><a href='index.html'>Eros Collection</a></li>
+                    <li><a href='index.html'>Orion Collection</a></li>
+                    <li><a href='index.html'>Percival Collection</a></li>
                   </ul>
                   <ul className='trending-collections'>
-                    <li className='trending-collections-header'>Trending Collection</li>
-                    <li>Best Sellers</li>
-                    <li>New Arrivals</li>
-                    <li>Limited Edition</li>
-                    <li>On Sale</li>
-                    <li>Bundles</li>
+                    <li className='trending-collections-header'><a href='index.html'>Trending Collection</a></li>
+                    <li><a href='index.html'>Best Sellers</a></li>
+                    <li><a href='index.html'>New Arrivals</a></li>
+                    <li><a href='index.html'>Limited Edition</a></li>
+                    <li><a href='index.html'>On Sale</a></li>
+                    <li><a href='index.html'>Bundles</a></li>
                   </ul>
-                  <div>
+                  <div className='collection-pics'>
                     <img className='trending' src={trending} alt='' />
                     <p>Trending Now</p>
-                  </div>
-                  <div>
                     <img className='new-arrivals' src={newArrivals} alt='' />
                     <p>New Arrivals</p>
                   </div>

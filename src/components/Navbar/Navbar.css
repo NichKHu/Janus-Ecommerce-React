@@ -169,41 +169,65 @@ button {
     width: auto;
 
     border: 1px solid black;
-    margin: 3rem 2rem;
+    margin: 1rem;
 }
 
 .collections {
     position: relative;
     z-index: 100;
-
-    transition: 0.4s ease-in-out;
 }
 
 .dropdown-collections {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
     border: 1px solid rgb(111,111,111);
     background: white;
-    opacity: 99%;
 
     position: absolute;
-    top: 3.6rem;
+    top: 3.7rem;
+    left: 0;
+    width: 45rem;
+    height: 30rem;
 
-    width: 100vh;
-    height: 40vh;
+    transform: translateX(-3em);
+    z-index: -1;
+    transition: all 0.5s ease-in-out 0s, display 0s linear 0.3s, z-index 0s linear 0.01s;
 }
 
-.dropdown-collections ul {
-    padding: 2rem;
-}
-
-.dropdown-collections ul li {
-    padding-top: 1.2rem;
-}
-
+.collections:focus .dropdown-collections,
+.collections:focus-within .dropdown-collections,
 .collections:hover .dropdown-collections {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(0);
+    transition-delay: 0s, 0s, 0.3s;
+}
+
+/* .dropdown-collections ul li {
+    border: 1px solid red;
+    height: 4.3rem;
+    margin: 1rem;
+} */
+
+.dropdown-collections a {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 6rem;
+    margin: -15px;
+
+    border: 1px solid red;
+}
+
+/* .collections:hover .dropdown-collections {
     display: flex;
     cursor: pointer;
-}
+} */
 
 .dropdown-collections div p {
     position: relative;
