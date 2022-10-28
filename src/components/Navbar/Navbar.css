@@ -25,48 +25,41 @@
 }
 
 .logo {
-    margin-left: 2rem;
-    margin-right: -10rem;
-    margin-top: -2rem;
-    margin-bottom: -2rem;
-    height: auto;
-    width: 10rem;
-
+    height: 150px;
+    width: auto;
     cursor: pointer;
+
+    margin-left: 1.5rem;
 }
 
-.navbar .container {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 5.5rem;
 
     font-family: 'FuturaLT', 'sans-serif';
-    color: black;
     font-size: 15px;
+    color: black;
     background-color: rgb(255,255,255);
 }
 
-.main-menu > ul {
-    display: flex;
-}
-
-.main-menu ul li a {
-    padding: 1.5rem;
+.container li a {
     color: black;
+    font-size: 14px;
 }
 
 .user {
     display: flex;
-}
-
-.user > * {
-    padding: 1.5rem 0.2rem;
+    justify-content: flex-end;
+    align-items: center;
     margin-right: 1rem;
-    font-size: 1.5rem;
 }
 
 .user span a {
     color: black;
+    font-size: 1.5rem;
+    padding: 0rem 0.7rem;
 }
 
 button {
@@ -186,7 +179,7 @@ button {
     background: white;
 
     position: absolute;
-    top: 3.7rem;
+    top: 3.46rem;
     left: 0;
     width: 65rem;
     height: 20rem;
@@ -233,6 +226,10 @@ button {
     text-align: center;
 }
 
+.zoom-in {
+    margin-left: 40px;
+}
+
 .zoom-in img {
     transform: scale(1);
     transition: 0.3s ease-in-out;
@@ -273,7 +270,7 @@ button {
 .dropdown-menu-dc {
     position: absolute;
     display: none; 
-    top: 3.8rem;
+    top: 2.5rem;
     /* left: 0; */
     min-width: 50px;
     background: white;
