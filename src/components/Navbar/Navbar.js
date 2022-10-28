@@ -39,13 +39,17 @@ const Navbar = () => {
                     <li><a href='index.html'>On Sale</a></li>
                     <li><a href='index.html'>Bundles</a></li>
                   </ul>
-                  <div>
-                    <img className='trending' src={trending} alt='' />
-                    <p>Trending Now</p>
+                  <div className='zoom-in'>
+                    <figure>
+                      <img className='trending' src={trending} alt='' />
+                      <p>Trending Now</p>
+                    </figure>
                   </div>
-                  <div>
-                    <img className='new-arrivals' src={newArrivals} alt='' />
-                    <p>New Arrivals</p>
+                  <div className='zoom-in'>
+                    <figure>
+                      <img className='new-arrivals' src={newArrivals} alt='' />
+                      <p>New Arrivals</p>
+                    </figure>
                   </div>
                 </div>
               </div>

@@ -233,6 +233,21 @@ button {
     text-align: center;
 }
 
+.zoom-in img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.zoom-in:hover img {
+    transform: scale(1.1);
+}
+
+.figure {
+    overflow: hidden;
+    margin: auto;
+}
+
+
 /* Dropdown Dollar Conversion Menu */
 
 .dropdown-dc {
