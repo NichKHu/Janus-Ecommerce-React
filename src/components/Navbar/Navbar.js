@@ -32,16 +32,18 @@ const Navbar = () => {
                     <li><a href='index.html'>Percival Collection</a></li>
                   </ul>
                   <ul className='trending-collections'>
-                    <li className='trending-collections-header'><a href='index.html'>Trending Collection</a></li>
+                    <li className='trending-collections-header'><a href='index.html'>Trending Collections</a></li>
                     <li><a href='index.html'>Best Sellers</a></li>
                     <li><a href='index.html'>New Arrivals</a></li>
                     <li><a href='index.html'>Limited Edition</a></li>
                     <li><a href='index.html'>On Sale</a></li>
                     <li><a href='index.html'>Bundles</a></li>
                   </ul>
-                  <div className='collection-pics'>
+                  <div>
                     <img className='trending' src={trending} alt='' />
                     <p>Trending Now</p>
+                  </div>
+                  <div>
                     <img className='new-arrivals' src={newArrivals} alt='' />
                     <p>New Arrivals</p>
                   </div>

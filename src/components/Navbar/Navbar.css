@@ -181,14 +181,15 @@ button {
     visibility: hidden;
     opacity: 0;
     display: flex;
+    align-items: center;
     border: 1px solid rgb(111,111,111);
     background: white;
 
     position: absolute;
     top: 3.7rem;
     left: 0;
-    width: 45rem;
-    height: 30rem;
+    width: 65rem;
+    height: 20rem;
 
     transform: translateX(-3em);
     z-index: -1;
@@ -218,21 +219,18 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 6rem;
-    margin: -15px;
-
-    border: 1px solid red;
+    height: 2.5rem;
 }
 
-/* .collections:hover .dropdown-collections {
-    display: flex;
-    cursor: pointer;
-} */
+.exclusive-collections-header,
+.trending-collections-header {
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 .dropdown-collections div p {
-    position: relative;
-    right: -8rem;
-    bottom: 2rem;
+    font-size: 13px;
+    text-align: center;
 }
 
 /* Dropdown Dollar Conversion Menu */
