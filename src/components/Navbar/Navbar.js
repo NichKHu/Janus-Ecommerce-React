@@ -71,8 +71,8 @@ const Navbar = () => {
           <span className='user-profile'><a href='#'><AiOutlineUser /></a></span>
           <span className='search-btn'><a href='#'><AiOutlineSearch /></a></span>
           <span className='cart'><a href='#'><SlBag /></a></span>
+          </div>
         </div>
-      </div>
       </div>
     </div>
   )

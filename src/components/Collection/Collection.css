@@ -51,16 +51,23 @@
 figure {
     overflow: hidden;
     margin: auto;
-
-    position: relative;
 }
 
-figure button {
-    position: absolute;
-    
+.zoom-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure > button {
+    /* position: absolute;
     bottom: 2rem;
     left: 6rem;
-    width: 180px;
+    width: 180px;  */
+    /* flex-shrink: 0; */
+    position: relative;
+    left: 5.5rem;
+    bottom: 5rem;
 
     font-family: 'FuturaLT', 'sans-serif';
     font-size: 12px;
