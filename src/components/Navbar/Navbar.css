@@ -175,7 +175,7 @@ button {
     opacity: 0;
     display: flex;
     align-items: center;
-    border: 1px solid rgb(111,111,111);
+    border: none;
     background: white;
 
     position: absolute;
@@ -217,13 +217,14 @@ button {
 
 .exclusive-collections-header,
 .trending-collections-header {
-    font-weight: bold;
-    text-decoration: underline;
+    font-weight: 600;
+    font-size: 15x;
 }
 
 .dropdown-collections div p {
     font-size: 13px;
     text-align: center;
+    font-weight: 600;
 }
 
 .zoom-in {

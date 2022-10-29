@@ -1,7 +1,7 @@
 import React from 'react'
 import './Marketing.css';
 
-import MarketingVideo from '../../assets/images/marketing-video.mp4'
+import MarketingVideo from '../../assets/images/marketing-video-final.mp4'
 
 
 const Marketing = () => {
