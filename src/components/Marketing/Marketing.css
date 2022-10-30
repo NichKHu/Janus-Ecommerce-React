@@ -24,7 +24,7 @@
     z-index: -1;
 }
 
-/* @media (min-aspect-ratio: 16/9) {
+@media (min-aspect-ratio: 16/9) {
     .marketing-video {
         width: 100%;
         height: auto;
@@ -36,4 +36,4 @@
         width: auto;
         height: 100%;
     }
-} */
+}
