@@ -1,10 +1,10 @@
 import React from 'react'
 import './Shop.css'
 
-import watch1 from '../../assets/images/watch-1.jpg'
-import watch2 from '../../assets/images/watch-2.jpg'
-import watch3 from '../../assets/images/watch-3.jpg'
-import watch4 from '../../assets/images/watch-4.jpg'
+import watch1 from '../../assets/images/watch-1-final.jpg'
+import watch2 from '../../assets/images/watch-2-final.jpg'
+import watch3 from '../../assets/images/watch-3-final.jpg'
+import watch4 from '../../assets/images/watch-4-final.jpg'
 
 const Shop = () => {
   return (
@@ -17,7 +17,7 @@ const Shop = () => {
                 <img className='watch-pic' src={watch3} alt='' />
                 <img className='watch-pic' src={watch4} alt='' />
             </div>
-            <div>
+            <div className='content'>
                 <button className='discover-button' type='button' name='button'>Discover Our Collection</button>
             </div>
         </div>
