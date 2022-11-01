@@ -1,6 +1,6 @@
 .shop {
     width: 100%;
-    height: 45rem;
+    height: 43rem;
     margin: 2rem;
 }
 
@@ -42,9 +42,15 @@
     text-transform: uppercase;
     border: 1px solid black;
     background: black;
-    padding: 1rem 3rem;
+    padding: 0.5rem 2rem;
+
+    width: 230px;
+    transition: 0.4s ease-in-out;
+    box-shadow: inset 0 0 0 0 white;
 }
 
 .discover-button:hover {
+    box-shadow: inset 230px 0 0 0 white;
+    color: black;
     cursor: pointer;
 }
