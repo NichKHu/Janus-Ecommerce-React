@@ -1,7 +1,7 @@
 .hero {
     background-color: rgba(0,0,0,0.35);
     color: white;
-    height: 70vh;
+    height: 65vh;
     width: 100%;
     position: relative;
     margin-bottom: 4rem;
@@ -35,17 +35,17 @@
 }
 
 .main-header {
-    position: absolute;
-    left: 8rem;
-    top: 14rem;
+    position: relative;
+    left: -15rem;
+    top: -2rem;
 
     font-weight: 200;
 }
 
 .sub-header {
-    position: absolute;
-    left: 10rem;
-    top: 17.5rem;
+    position: relative;
+    left: -15rem;
+    top: -3rem;
 
     font-weight: 200;
 }
@@ -58,9 +58,9 @@
     border: 0.01px solid rgb(231,231,231);
     padding: 1rem 1.5rem;
 
-    position: absolute;
-    left: 15rem;
-    top: 22rem;
+    position: relative;
+    left: -15rem;
+    top: -2rem;
 
     width: 200px;
     transition: 0.4s ease-in-out;
