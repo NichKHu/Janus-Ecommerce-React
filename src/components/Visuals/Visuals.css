@@ -26,7 +26,8 @@
 
 .visuals .container div p {
     color: #6F6F6F;
-    font-family: 'FuturaLT', 'sans-serif';
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 500;
     font-size: 13px;
     line-height: 21.5px;
 }

@@ -22,6 +22,7 @@
 .marketing-video {
     display: block;
     z-index: -1;
+    background: black;
 }
 
 @media (min-aspect-ratio: 16/9) {

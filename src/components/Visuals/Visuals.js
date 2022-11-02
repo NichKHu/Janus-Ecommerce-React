@@ -4,7 +4,7 @@ import './Visuals.css'
 import {GiCommercialAirplane} from 'react-icons/gi'; //International shipping icon
 import {SlRefresh} from 'react-icons/sl'; //Return and exchange icon
 import {GiDiamondHard} from 'react-icons/gi'; //Customize icon
-import {BsPeople} from 'react-icons/bs'; //Customer support icon
+import {SlEarphonesAlt} from 'react-icons/sl'; //Customer support icon
 
 const Visuals = () => {
   return (
@@ -26,7 +26,7 @@ const Visuals = () => {
                 <p>Complimentary engraving and customized size for all orders.</p>
             </div>
             <div className='support aspect'>
-                <BsPeople className='icon' />
+                <SlEarphonesAlt className='icon' />
                 <h4>Flexible Customer Support</h4>
                 <p>Reaching out to our team is easy with 24/7 chat, phone call, or e-mail.</p>
             </div>

@@ -11,7 +11,7 @@ const Marketing = () => {
             <h1>Passion of Handcraft</h1>
         </div>
         <div className='container'>
-            <video className='marketing-video' src={MarketingVideo} width="100%;" height="auto" autoPlay loop muted />
+            <video className='marketing-video' src={MarketingVideo} width="100%;" height="600rem" autoPlay loop muted />
         </div>
     </div>
   )

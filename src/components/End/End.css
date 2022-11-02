@@ -1,4 +1,4 @@
-.end .content {
+.end-content {
     display: flex;
     justify-content: space-around;
 
@@ -8,11 +8,11 @@
     font-family: 'Raleway', 'sans-serif';
 }
 
-.content div h3{
+.end-content div h3{
     color: rgb(111,111,111);
     font-size: 15px;
     font-family: 'FuturaLt', 'sans-serif';
-    font-weight: bold;
+    font-weight: 300;
 }
 
 .list li {
@@ -26,10 +26,7 @@
 .list li a {
     color: rgb(111,111,111);
     font-family: 'Raleway', 'sans-serif';
-}
-
-.header {
-    padding-bottom: 0.5rem;
+    font-weight: 500;
 }
 
 form {
@@ -52,11 +49,11 @@ input {
     margin-top: 2rem;
     width: 140px;
 
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 1.3rem;
     letter-spacing: 2.4px;
 
     font-family: 'FuturaLT';
-    font-size: 12px;
+    font-size: 10px;
     background-color: black;
     border: 1px solid black;
     color: white;
@@ -76,8 +73,9 @@ input {
     line-height: 23.1px;
 
     color: rgb(111,111,111);
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Raleway', 'sans-serif';
+    font-weight: 500;
 }
 
 .contact > * {
@@ -107,8 +105,18 @@ input {
     padding-top: 1rem;
     padding-bottom: 1rem;
 
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: rgb(111,111,111);
+}
+
+.call-us {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+
+.schedule {
+    font-size: 13px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -117,9 +125,4 @@ input {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
     }
-}
-
-.call-us, 
-.schedule {
-    font-size: 15px;
 }

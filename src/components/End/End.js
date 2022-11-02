@@ -10,7 +10,7 @@ import {IoLogoTumblr} from 'react-icons/io';
 const End = () => {
   return (
     <div className='end'>
-        <div className='content'>
+        <div className='end-content'>
             <div className='our-brand list'>
                 <h3 className='header'>Our Brand</h3>
                     <ul className='our-brand-list'>
@@ -37,11 +37,11 @@ const End = () => {
             </div>
             <div className='newsletter list'>
                 <h3 className='header'>Newsletter</h3>
-                    <p className='newsletter-info'>Subscribe to recieve updates, access to exclusive subscriber discount, and more.</p>
-                    <form>
-                        <input className='user-input' type='email' placeholder='Enter your email address'></input>
-                        <button className='btn-subscribe' type='button' name='button'>SUBSCRIBE</button>
-                    </form>
+                <p className='newsletter-info'>Subscribe to recieve updates, access to exclusive subscriber discount, and more.</p>
+                <form>
+                    <input className='user-input' type='email' placeholder='Enter your email address'></input>
+                    <button className='btn-subscribe' type='button' name='button'>SUBSCRIBE</button>
+                </form>
             </div>
             <div className='contact list'>
                 <h3 className='contact-us'>Contact Us</h3>
