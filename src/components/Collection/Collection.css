@@ -51,6 +51,8 @@
 figure {
     overflow: hidden;
     margin: auto;
+
+    text-align: center;
 }
 
 .zoom-in {
@@ -59,14 +61,8 @@ figure {
     align-items: center;
 }
 
-figure > button {
-    /* position: absolute;
-    bottom: 2rem;
-    left: 6rem;
-    width: 180px;  */
-    /* flex-shrink: 0; */
+figure button {
     position: relative;
-    left: 5.5rem;
     bottom: 5rem;
 
     font-family: 'FuturaLT', 'sans-serif';
