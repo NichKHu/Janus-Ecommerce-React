@@ -2,6 +2,7 @@
     width: 100%;
     height: 18rem;
     border-top: 1px solid rgb(234,234,234);
+    display: block;
 }
 
 .visuals .container {
@@ -14,6 +15,7 @@
 .visuals .container div {
     margin: 5rem;
     text-align: center;
+    display: block;
 }
 
 .visuals .container div h4 {
@@ -35,4 +37,19 @@
 .icon {
     color: #6F6F6F;;
     font-size: 3rem;
+}
+
+/* Media queries  *************************/
+
+@media screen and (max-width: 1024px) {
+    .visuals {
+        width: 100%;
+        height: 38rem;
+    }
+
+    .visuals .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px 300px;
+    }
 }

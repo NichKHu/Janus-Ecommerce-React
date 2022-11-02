@@ -13,9 +13,7 @@ import newArrivals from '../../assets/images/new-arrivals.jpg'
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <div className='banner'>
-        Free Worldwide Express Shipping
-      </div>
+      <div className='banner'>Express Worldwide Shipping</div>
       <div className='container'>
         <img className='logo' src={logo} alt='' />
         <div className='collections'>
@@ -80,21 +78,3 @@ const Navbar = () => {
 
 export default Navbar
 
-
-{/* <div className='dropdown'>
-<div className='select'>
-  <span className='selected'>USD</span>
-  <div className='caret'></div>
-</div>
-<ul className='menu'>
-    <li>AED</li>
-    <li>AUD</li>
-    <li>CAD</li>
-    <li>EUR</li>
-    <li>GBP</li>
-    <li>HKD</li>
-    <li>KRW</li>
-    <li>NZD</li>
-    <li>SGD</li>
-    <li class='active'><a href='#'>USD</a></li>
-</ul> */}

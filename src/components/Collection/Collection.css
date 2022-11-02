@@ -86,3 +86,13 @@ figure button:hover {
     background-color: transparent;
     text-decoration: underline;
 }
+
+/* Media queries  *************************/
+
+@media screen and (max-width: 1024px) {
+    .collection .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+    }
+}

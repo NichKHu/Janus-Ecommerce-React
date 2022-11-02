@@ -12,7 +12,7 @@
     color: rgb(111,111,111);
     font-size: 15px;
     font-family: 'FuturaLt', 'sans-serif';
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .list li {
@@ -101,14 +101,13 @@ input {
 .social-media {
     display: flex;
     justify-content: space-between;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 0.5rem 0.5rem 0rem 0rem;
 
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: rgb(111,111,111);
-}
 
+    cursor: pointer;
+}
 .call-us {
     font-size: 15px;
     font-weight: 500;
@@ -119,13 +118,6 @@ input {
     font-size: 13px;
 }
 
-@media screen and (max-width: 1024px) {
-    .end .content {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2rem;
-    }
-}
 /* Copyright and Payment Icons  ***************/
 
 .copyright-header,
@@ -174,4 +166,14 @@ input {
 
 .google {
     padding: 3px 2px;
+}
+
+/* Media queries  *************************/
+
+@media screen and (max-width: 1024px) {
+    .end .end-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
 }
