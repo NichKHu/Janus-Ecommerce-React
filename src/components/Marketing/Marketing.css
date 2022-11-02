@@ -25,6 +25,14 @@
     background: black;
 }
 
+.logo-white {
+    position: absolute;
+    right: 13rem;
+    height: 150px;
+    width: auto;
+    border: 2px solid white;
+}
+
 @media (min-aspect-ratio: 16/9) {
     .marketing-video {
         width: 100%;

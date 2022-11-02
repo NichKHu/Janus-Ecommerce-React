@@ -1,4 +1,5 @@
 import React from 'react'
+import { Icon } from '@iconify/react';
 import './End.css'
 
 import {AiOutlineFacebook} from 'react-icons/ai';
@@ -52,8 +53,16 @@ const End = () => {
                     <div className="social-media"><AiOutlineFacebook /><GrTwitter /><AiOutlineInstagram /><ImPinterest2 /><IoLogoTumblr /></div>
             </div>
         </div>
-        <div className='copyright-ending'>
-                <p>© 2022 JANUS Ltd-All rights reserved GB VAT 219 6348 89 - 307 Linen Hall 162-168 Regent Street W1B 5TE</p>
+        <div className='copyright-payment'>
+                <p className='copyright-header'>© 2022 JANUS Ltd-All rights reserved GB VAT 219 6348 89 - 307 Linen Hall 162-168 Regent Street W1B 5TE</p>
+                <div className='payment-icons'>
+                    <Icon className='visa icon' icon="logos:visa" />
+                    <Icon className='discover icon' icon="logos:discover" />
+                    <Icon className='paypal icon' icon="logos:paypal" />
+                    <Icon className='apple icon' icon="logos:apple-pay" />
+                    <Icon className='amazon icon' icon="fa6-brands:amazon-pay" />
+                    <Icon className='google icon' icon="logos:google-pay-icon" />
+                </div>
         </div>
     </div>
   )

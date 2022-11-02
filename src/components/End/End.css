@@ -53,7 +53,7 @@ input {
     letter-spacing: 2.4px;
 
     font-family: 'FuturaLT';
-    font-size: 10px;
+    font-size: 11px;
     background-color: black;
     border: 1px solid black;
     color: white;
@@ -90,7 +90,7 @@ input {
     color: rgb(111,111,111);
 }
 
-.copyright-ending {
+.copyright-payment {
     margin: 3rem;
     color: rgb(111,111,111);
 
@@ -125,4 +125,53 @@ input {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
     }
+}
+/* Copyright and Payment Icons  ***************/
+
+.copyright-header,
+.payment-icons {
+    display: inline;
+}
+
+.payment-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.payment-icons > * {
+    padding: 0rem 3px;
+    font-size: 20px;
+}
+
+.payment-icons .icon {
+    width: 44px;
+    height: 23px;
+    border-radius: 3px;
+    border: 1px solid rgb(219, 216, 216);
+    margin: 5px;
+}
+
+.visa {
+    padding: 3px 8px;
+}
+
+.discover {
+    padding: 3px 3px;
+}
+
+.paypal {
+    padding: 3px;
+}
+
+.apple {
+    padding: 4px;
+}
+
+.amazon {
+    padding: 1px;
+}
+
+.google {
+    padding: 3px 2px;
 }
