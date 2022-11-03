@@ -39,6 +39,7 @@
     left: -15rem;
     top: -2rem;
 
+    font-size: 2rem;
     font-weight: 200;
 }
 
@@ -47,6 +48,7 @@
     left: -15rem;
     top: -3rem;
 
+    font-size: 1rem;
     font-weight: 200;
 }
 
@@ -72,4 +74,42 @@
     color: black;
     cursor: pointer;
     border: 0.01px solid rgb(153, 118, 118);
+}
+
+/* Media queries  *************************/
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        height: 40vh;
+    }
+
+    .main-header {
+        font-size: 1.5rem;
+        position: static;
+    }
+
+    .sub-header {
+        font-size: 0.9rem;
+        position: static;
+    }
+
+    .browse-btn {
+        position: relative;
+        left: 0rem;
+        top: 1rem;
+
+        font-size: 0.8rem;
+        padding: 0.5rem 1.2rem;
+
+        width: 100px;
+        transition: 0.4s ease-in-out;
+        box-shadow: inset 0 0 0 0 white;
+    }
+
+    .browse-btn:hover {
+        box-shadow: inset 100px 0 0 0 rgb(231,231,231);
+        color: black;
+        cursor: pointer;
+        border: 0.01px solid rgb(153, 118, 118);
+    }
 }
