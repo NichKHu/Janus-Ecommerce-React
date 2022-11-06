@@ -27,9 +27,8 @@ const Navbar = () => {
           </div>
           <img className='logo' src={logo} alt='' />
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='collections'>
-              <li><a href='#'>Collections</a></li>
-                <div className='dropdown-collections'>
+            <li className='collections'><a href='#'>Collections</a>
+              <div className='dropdown-collections'>
                   <ul className='exclusive-collections'>
                     <li className='exclusive-collections-header'><a href='index.html'>Exclusive Collections</a></li>
                     <li><a href='index.html'>Atlas Collection</a></li>
@@ -58,7 +57,7 @@ const Navbar = () => {
                       <p>New Arrivals</p>
                     </figure>
                   </div>
-                </div>
+              </div>
             </li>
             <li><a href='#'>Watches</a></li>
             <li><a href='#'>Bracelets</a></li>
