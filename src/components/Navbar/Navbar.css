@@ -25,11 +25,10 @@
 }
 
 .logo {
+    display: inline-block;
     height: 150px;
     width: auto;
     cursor: pointer;
-
-    margin-left: 1.5rem;
 }
 
 .container {
@@ -44,28 +43,22 @@
     background-color: rgb(255,255,255);
 }
 
-.container li a {
+.container .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     color: black;
     font-size: 14px;
+
+    padding: 2rem;
 }
 
-.user {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 1rem;
-}
-
-.user span a {
+.container .nav-menu .nav a {
     color: black;
-    font-size: 1.5rem;
-    padding: 0rem 0.7rem;
-}
+    font-size: 14px;
 
-button {
-    font-family: 'FuturaLT', 'sans-serif';
-    border: none;
-    background: transparent;
+    padding: 2rem;
 }
 
 /* Collections Dropdown Main Menu ******************/
@@ -89,7 +82,7 @@ button {
     opacity: 0;
     display: flex;
     align-items: center;
-    border: none;
+    border: 1px solid rgb(231,231,231);
     background: white;
 
     position: absolute;
@@ -119,14 +112,15 @@ button {
     margin: 1rem;
 } */
 
-.dropdown-collections a {
+.dropdown-collections ul li a {
     font-size: 13px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 2.5rem;
+    height: 2.3rem;
+    margin: -1rem;
 }
 
 .exclusive-collections-header,
@@ -159,8 +153,29 @@ button {
     margin: auto;
 }
 
+/* User  ********************************************/
 
-/* Dropdown Dollar Conversion Menu */
+.user {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.user span a {
+    color: black;
+    font-size: 1.5rem;
+    padding: 0rem 0.6rem;
+}
+
+button {
+    font-family: 'FuturaLT', 'sans-serif';
+    border: none;
+    background: transparent;
+}
+
+
+/* Dropdown Dollar Conversion Menu ************************/
 
 .dropdown-dc {
     position: relative;
@@ -230,7 +245,7 @@ button {
 
 }
 
-/* Mobile ********************/
+/* Mobile **********************************************/
 
 .mobile-nav {
     display: none;
@@ -243,6 +258,10 @@ button {
 }
 
 @media screen and (max-width:1040px) {
+    .logo {
+        margin-right: 12rem;
+    }
+
     .mobile-nav {
         display: block;
     }
@@ -255,10 +274,11 @@ button {
         top: 90px;
         left: 20px;
         height: 100%;
+        width: 40%;
         left: -100%;
         transition: 0.7s ease-in-out;
         background: rgba(255,255,255,.95);
-        z-index: 10;
+        z-index: 100;
     }
 
     .navbar .active {
