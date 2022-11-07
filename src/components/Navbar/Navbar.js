@@ -1,8 +1,8 @@
 import React, { useState} from 'react'
 import './Navbar.css';
 
-import {AiOutlineMenuUnfold} from 'react-icons/ai';
-import {AiOutlineMenuFold} from 'react-icons/ai';
+import {AiOutlineMenu} from 'react-icons/ai';
+// import {AiOutlineMenu} from 'react-icons/ai';
 
 import {AiOutlineUser} from 'react-icons/ai';
 import {AiOutlineSearch} from 'react-icons/ai';
@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className='banner'>Express Worldwide Shipping</div>
       <div className='container'>
         <div className='bar' onClick={handleClick}>
-          {click ? (<AiOutlineMenuUnfold className="closing-mobile-nav" />) : (<AiOutlineMenuFold className="mobile-nav" />)}
+          {click ? (<AiOutlineMenu className="closing-mobile-nav" />) : (<AiOutlineMenu className="mobile-nav" />)}
         </div>
         <img className='logo' src={logo} alt='' />
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
